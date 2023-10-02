@@ -1,0 +1,334 @@
+ .subheading {
+     font-size: 1.7em;
+     color: #072c5E !important;
+     text-align: center;
+     font-weight: 600;
+     margin-bottom: 1em;
+ }
+
+ .fusion-page-title-bar {
+     clear: both;
+     padding: 0 10px;
+     height: 175px;
+     width: 100%;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-origin: border-box;
+     background-color: #0079a5;
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+     background-image: url("https://techspawn.com/wp-content/themes/Avada/assets/images/page_title_bg.png");
+     border-color: #d2d3d4;
+     background-size: cover;
+ }
+
+
+ .fusion-page-title-bars {
+     clear: both;
+     padding: 0 10px;
+     height: 275px;
+     width: 100%;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-origin: border-box;
+     background-color: #0079a5;
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+     background-image: url("./../../../public/bg.png");
+     border-color: #d2d3d4;
+     background-size: cover;
+ }
+
+ .title {
+     font-size: 150px;
+     color: #fff;
+     font-weight: bolder;
+ }
+
+ .fusion-page-title-bar .fusion-page-title-wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     height: 100%;
+     width: 100%;
+ }
+
+ .fusion-page-title-bar .fusion-page-title-wrapper .fusion-page-title-captions {
+     text-align: center;
+     width: 100%;
+ }
+
+ .fusion-page-title-bar .fusion-page-title-wrapper .fusion-page-title-captions .entry-title {
+     font-size: 30px;
+     color: #fff;
+     margin: 0;
+ }
+
+ .mainserivices .paaragraph,
+ .mainserivices .wrapper .subparagraphs,
+ .mainserivices .mainservicecard li,
+ .mainserivices .bg-gray ul.benifits {
+     font-size: 1em;
+     letter-spacing: .05em;
+     color: #828181;
+ }
+
+ .mainserivices .containerservices {
+     display: flex;
+     justify-content: space-between;
+     /* This distributes the columns evenly */
+     width: 100%;
+ }
+
+ .mainserivices .containerservices .column {
+     flex: 1;
+     /* This makes all columns have the same width */
+     padding: 20px;
+ }
+
+ .mainserivices .containerservices .column.blue {
+     background-color: #effcfe;
+ }
+
+ .mainserivices .containerservices .column.pink,
+ .mainserivices .bg-pink {
+     background-color: #f8f6df;
+ }
+
+ .mainserivices .containerservices .column h5 {
+     font-size: 1.4em;
+     color: #072c5e;
+     font-weight: 600;
+     margin-bottom: 1em;
+ }
+
+ .mainserivices .containerservices .column p {
+     font-size: .999em;
+     font-weight: 400;
+ }
+
+ /* GET IN TOUCH */
+ .mainserivices .getintouch {
+     background-color: #f7f7f7;
+     padding: 0.001em 0;
+ }
+
+ .mainserivices .getintouch .getContainer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .mainserivices .getintouch .getContainer .leftSide {
+     flex: 2
+ }
+
+ .mainserivices .getintouch .getContainer .rightSide {
+     display: flex;
+     justify-content: end;
+     margin-left: 1.3em;
+ }
+
+ .mainserivices .getintouch h2 {
+     font-size: 1.5em;
+     color: #072c5e;
+     font-weight: 700;
+ }
+
+ .mainserivices .getintouch p {
+     font-size: 1.1em;
+     color: #072c5e;
+     font-weight: 600;
+     margin: 0;
+ }
+
+ .mainserivices .getintouch .freequote,
+ .mainserivices .bg-pink .freequote {
+     border: 0;
+     width: auto;
+     background-color: #f6881f;
+     padding: .5em 1.2em;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 500;
+ }
+
+ .mainserivices .mainservicecard {
+     box-shadow: 3px 3px 9px #0e75ba;
+     padding: 15px;
+ }
+
+ .mainserivices .bg-pink .searchCard {
+     background-color: #fff;
+     padding: 1.2em;
+     text-align: center;
+     border-radius: .9em;
+     font-size: 1.2em;
+     font-weight: 600;
+ }
+
+ .mainserivices .bg-gray {
+     background-color: rgba(230, 230, 230, 0.5);
+     padding: 2em 0;
+ }
+
+ .parahead {
+     color: #828181;
+     font-weight: bolder;
+ }
+
+ .contactus {
+     background-color: #ffffff;
+     color: #f6881f;
+     padding: 10px 20px;
+     text-align: center;
+     font-weight: bold;
+     border: 1px solid #f6881f;
+ }
+
+ .contactus:hover {
+     background-color: #f6881f;
+     color: #ffffff;
+     border: 2px solid #ffffff;
+     padding: 10px 20px;
+     text-align: center;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ .contactuss {
+    background-color: #f6881f;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+}
+
+.contactuss:hover {
+    background-color: #ffffff;
+    color: #f6881f;
+    border: 2px solid #f6881f;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .col-sm-4 {
+     padding: 15px;
+ }
+
+ 
+ .flipy {
+     -webkit-perspective: 800;
+     width: 100%;
+     height: 240px;
+     position: relative;
+     border: 2px solid black;
+ }
+
+ .flipy .card:hover {
+     -webkit-transform: rotateY(180deg);
+     -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+     -o-transform: rotateY(180deg);
+ }
+
+ .flipy .card {
+     width: 100%;
+     height: 100%;
+     -webkit-transform-style: preserve-3d;
+     -webkit-transition: 0.5s;
+ }
+
+ .flipy .card .face {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     overflow: hidden;
+     -webkit-backface-visibility: hidden;
+     z-index: 2;
+     font-family: Georgia;
+     font-size: 3em;
+     text-align: center;
+     line-height: 200px;
+ }
+
+ .flipy .card .front {
+     position: absolute;
+     z-index: 1;
+     background: #f8f8f8;
+     color: white;
+     cursor: pointer;
+ }
+
+ .flipy .card .back {
+     -webkit-transform: rotateY(180deg);
+     -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+     -o-transform: rotateY(180deg);
+     background: blue;
+     background: #f8f8f8;
+     color: black;
+     cursor: pointer;
+ }
+ .cross{
+    font-size: 20px;
+    color: #072c5e;
+ }
+ .woocomm{
+    background: #eb6029;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+ }
+ .woocomm:hover{
+    background: #fff;
+    padding: 10px 20px;
+    color: #eb6029;
+    border: none;
+    border: 2px solid #eb6029;
+    font-weight: 600;
+ }
+ .bgblue{
+    background-color: #effcfe;
+    padding: 30px;
+ }
+ .bgyellow{
+    background-color: #f8f6df ;
+    padding: 30px;
+ }
+ .colr{
+    color: #072c5e;
+    font-weight: 600;
+    font-size: 25px;
+ }
+ .bg1{
+    border: 2px solid lightgray;
+    border-top: 5px solid #0e75ba;
+ }
+ .bg3{
+    border: 2px solid lightgray;
+    border-top: 5px solid #eb6029;
+ }
+ .setbg{
+    background-color: #fff;
+    box-shadow: 3px 3px 9px rgba(14,117,186,0.5);
+    border-radius: 1px 1px 1px 1px;
+ }
+ .stexplore{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #eb6029;
+    border: 2px solid #eb6029;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ .stexplore:hover{
+    padding: 10px 20px;
+    background-color: #eb6029;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: bold;
+ }

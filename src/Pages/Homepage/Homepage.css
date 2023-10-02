@@ -1,0 +1,122 @@
+.firstSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.firstSection video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.firstSection .flex-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.firstSection .wlc {
+    font-size: 1.2em;
+    color: #f6881f;
+}
+
+.firstSection .mainheading {
+    color: #fff;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+.firstSection .successmsg {
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 1.2em;
+}
+
+/* END */
+
+/* THIRD */
+.thirdSection , .Sixsection{
+    background: linear-gradient(180deg, #143066 46%, #327ae7 100%);
+    padding: 3em;
+}
+
+.thirdSection .mainthirdsection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdSection .cardthird {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.thirdSection .cardthird img {
+    border-radius: 15px;
+}
+
+/* END */
+
+/* FIFTH */
+
+.fifthsection .card {
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .44), 0 6px 20px 0 rgba(0, 0, 0, .19) !important;
+
+}
+
+.fifthsection .fifthcard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.fifthsection .fifthcard .each-slide img {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fifthsection .fifthcard .each-slide h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.fifthsection .fifthcard .each-slide h5 {
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* END */
+/* SIX */
+
+.Sixsection .mainsix{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6em;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.Sixsection .mainsix .sectiondiv{
+    width: 7%;
+}
